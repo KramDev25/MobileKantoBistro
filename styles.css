@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* Main Title Font */
+@font-face {
+    font-family:Hammer;
+    src: url(fonts/HammersmithOne/HammersmithOne-Regular.ttf);
+}
+/* small title(h1) font */
+@font-face {
+    font-family:Solway;
+    src: url(fonts/Solway/Solway-Bold.ttf);
+}
+/* buttons and paragraph font */
+@font-face {
+    font-family:Hanken;
+    src: url(fonts/Hanken/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+
+.bannerSection{
+    height: 65vh;
+    background-image: url(images/jonas-jacobsson-1iTKoFJvJ6E-unsplash.jpg);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: contrast(120%);
+    text-align: center;
+}
+
+.bannerSection h5{
+    padding: 15px;
+    margin:25px 0 75px 0;
+    color: white;
+    font-family:Solway;
+    font-size: 1em;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.bannerSection h1{
+    color: white;
+    font-family:Hammer;
+    font-size: 2.5em;
+    padding: 15px;
+    margin: 20px 0 35px 0;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.bannerSection .buttonCont #dineIn{
+    padding: 15px 30px ;
+    font-family:Hanken;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutLlkb{
+    height: 100%;
+    margin: 20px ;
+
+}
+.imgCont{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.bread{
+    width: 100%;
+    height: 325px;
+}
+
+.coffee{
+    width: 100%;
+    height: 325px;
+}
+.aboutTitle{
+    font-family:Hammer;
+    font-size: 2.5em;
+}
+
+.descriptionCont p{
+    margin-top: 10px;
+    font-family:Hanken;
+    text-align: justify;
+    width: 85%;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+#bookNow{
+    padding: 15px 45px ;
+    font-family:Hanken;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menuCont{
+    height: 100%;
+    margin: 70px 20px 20px 20px ;
+}
+
+.menuCont .menuDescriptionCont .menutitle{
+    font-family:Hammer;
+    font-size: 2.5em;
+}
+
+.menuCont .menuDescriptionCont .menuParagraph{
+    margin: 10px 0 30px 0;
+    font-family:Hanken;
+    text-align: justify;
+    width: 85%;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.menu1,
+.menu2,
+.menu3{
+    margin: 30px 0 50px 0 ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu1 img,
+.menu2 img,
+.menu3 img{
+    width: 90%;
+    height: 500px;
+    margin-bottom: 25px;
+   
+}
+
+.menu1 h1,
+.menu2 h1,
+.menu3 h1{
+    font-family:Hammer;
+    color: black;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.menu1:hover h1,
+.menu2:hover h1,
+.menu3:hover h1{
+    text-decoration: underline;
+}
+
+
+.menu1:hover img,
+.menu2:hover img,
+.menu3:hover img{
+    filter: brightness(50%);
+}
+
+
+.mouthAppetizerMenuCont,
+.wholesomeMainMenuCont,
+.sweetEndingsMenuCont{
+    padding:  0 10px 20px 10px;
+    border: 1px solid black;
+    margin: 30px 0px 10px 0px;
+}
+
+.reviewSectionContainer{
+    margin: 20px 20px 20px 20px;
+    height: 100%;
+}
+
+.reviewSection{
+    height: 450px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+
+.review{
+    margin-bottom: 100px;
+    border: 1px solid white;
+    padding: 30px 20px 30px 20px;
+}
+
+.reviewTitle{
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.reviewTitle h1{
+    font-family:Hammer;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+}
+
+.reviewTitle span{
+    font-family: Hanken;
+}
+
+.review svg{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px ;
+}
+
+.review h5{
+    font-family:Hammer;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 15px ;
+}
+
+.review p{
+    font-family: Hanken;
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.review span{
+    font-family: Hanken;
+    font-size: 1em;
+}
+
+.reviewSection::-webkit-scrollbar {
+    width: 10px;
+}
+
+.reviewSection::-webkit-scrollbar-thumb {
+    background: rgba(143, 143, 143, 0.212); ;
+}
+
+
+.footerSection{
+    margin: 100px 20px 20px 20px;
+    height: 100%;
+    padding: 30px 30px 30px 60px;
+    border: 1px solid black;
+}
+
+.contacts{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+}
+
+.footerSection h1{
+    font-family:Hammer;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.footerSection .phoneNumber,
+.footerSection .emailAddress,
+.footerSection .location{
+    margin-bottom: 40px;
+}
+
+.footerSection .phoneNumber h5,
+.footerSection .emailAddress h5,
+.footerSection .location h5{
+    font-family: Hanken;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.footerSection .phoneNumber span,
+.footerSection .emailAddress span,
+.footerSection .location span{
+    font-family: Hanken;
+    font-size: .9em;
+}
+
+#messageUsBtn button{
+    padding: 15px 30px ;
+    font-family:Hanken;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
